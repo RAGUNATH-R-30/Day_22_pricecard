@@ -5,7 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 //Card component
 function Mycard({ data }) {
     return (
-        <div className='col-lg-4'>
+        <div className='col'>
             <div className="card" style={{ width: "300px" }}>
                 <div className="card-body">
                     <p style={{ textAlign: "center", color: "grey" }}>{data.plan}</p>
